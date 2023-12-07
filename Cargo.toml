@@ -1,7 +1,11 @@
 [package]
 name = "arithmetic_yukinari"
 version = "0.1.0"
+authors = ["Sei Yukinari <yukinarisei@gmail.com>"]
 edition = "2021"
+
+repository = "<https://github.com/Sei-Yukinari/arithmetic_yukinari>"
+license = "MIT"
 
 [lib]
 name = "arithmetic_yukinari"
