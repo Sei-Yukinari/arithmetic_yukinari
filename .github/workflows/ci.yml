@@ -41,7 +41,7 @@ jobs:
       - name: Hit Tag
         run: |
           git tag ${{ steps.detect_tag.outputs.current-version }}
-          git push ${{ steps.detect_tag.outputs.current-version }}
+          git push origin ${{ steps.detect_tag.outputs.current-version }}
 
       - name: Publish
         run: |
