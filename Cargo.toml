@@ -1,0 +1,10 @@
+[package]
+name = "arithmetic_yukinari"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "arithmetic_yukinari"
+path = "src/lib.rs"
+
+[dependencies]
