@@ -6,6 +6,8 @@ on:
       - main
     tags:
       - '*.*.*'
+    paths:
+      - Cargo.toml
 jobs:
   test:
     runs-on: ubuntu-latest
