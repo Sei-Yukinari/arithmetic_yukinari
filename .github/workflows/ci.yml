@@ -27,4 +27,4 @@ jobs:
 
       - name: Publish
         run: |
-          cargo publish --token ${CRATES_TOKEN}
+          cargo publish --token ${{ secrets.CRATES_TOKEN }}
