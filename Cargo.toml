@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Sei Yukinari <yukinarisei@gmail.com>"]
 edition = "2021"
 
+description = "A simple arithmetic library"
 repository = "<https://github.com/Sei-Yukinari/arithmetic_yukinari>"
 license = "MIT"
 
