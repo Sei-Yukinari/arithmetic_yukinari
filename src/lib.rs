@@ -28,6 +28,22 @@ pub fn subtract(a: i32, b: i32) -> i32 {
 pub fn multiply(a: i32, b: i32) -> i32 {
     a * b
 }
+/// Divides two numbers.
+/// # Examples
+/// ```
+/// use arithmetic_yukinari::divide;
+/// let d = divide(6, 3);
+/// assert_eq!(d, Some(2));
+/// let e = divide(2, 0);
+/// assert_eq!(e, None);
+/// ```
+pub fn divide(a: i32, b: i32) -> Option<i32> {
+    if b != 0 {
+        Some(a / b)
+    } else {
+        None
+    }
+}
 
 #[cfg(test)]
 mod tests {
@@ -44,5 +60,11 @@ mod tests {
     #[test]
     fn multiply_numbers() {
         assert_eq!(multiply(2, 3), 6);
+    }
+
+    #[test]
+    fn test_divide() {
+        assert_eq!(divide(6, 3), Some(2));
+        assert_eq!(divide(5, 0), None);
     }
 }
